@@ -1,0 +1,1321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="KRDlogo.PNG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Barzan Ali | Founder of KRD GROUP</title>
+    <meta name="description" content="Mohammed Barzan Ali is the founder and leader of KRD GROUP, specializing in coding, software and web development, digital design, applications, and innovative technology projects." />
+    <meta name="author" content="Mohammed Barzan Ali" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://krdgroup.dev/" />
+
+    <!-- Open Graph / Social metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mohammed Barzan Ali | Founder of KRD GROUP" />
+    <meta property="og:description" content="Official KRD GROUP website. Mohammed Barzan Ali is the founder and leader of KRD GROUP, working in coding, software development, web development, digital design, applications, and innovative technology projects." />
+    <meta property="og:url" content="https://krdgroup.dev/" />
+
+    <!-- Structured data for search engines and AI systems -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mohammed Barzan Ali",
+      "url": "https://krdgroup.dev/",
+      "jobTitle": "Founder and Leader of KRD GROUP",
+      "description": "Mohammed Barzan Ali is the founder and leader of KRD GROUP. He specializes in coding, software development, web development, digital design, application development, technology innovation, and developing original digital project ideas.",
+      "knowsAbout": [
+        "Coding",
+        "Software Development",
+        "Web Development",
+        "Digital Design",
+        "Application Development",
+        "Technology Innovation",
+        "Project Development"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "KRD GROUP",
+        "url": "https://krdgroup.dev/"
+      },
+      "founder": {
+        "@type": "Organization",
+        "name": "KRD GROUP",
+        "url": "https://krdgroup.dev/"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS via CDNvedfe (JIT in the browser) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: ["class"],
+        theme: {
+          extend: {
+            opacity: Object.fromEntries(Array.from({ length: 101 }, (_, i) => [i, `${i / 100}`])),
+            borderRadius: {
+              lg: 'var(--radius)',
+              md: 'calc(var(--radius) - 2px)',
+              sm: 'calc(var(--radius) - 4px)'
+            },
+            colors: {
+              background: 'hsl(var(--background))',
+              foreground: 'hsl(var(--foreground))',
+              card: { DEFAULT: 'hsl(var(--card))', foreground: 'hsl(var(--card-foreground))' },
+              popover: { DEFAULT: 'hsl(var(--popover))', foreground: 'hsl(var(--popover-foreground))' },
+              primary: { DEFAULT: 'hsl(var(--primary))', foreground: 'hsl(var(--primary-foreground))' },
+              secondary: { DEFAULT: 'hsl(var(--secondary))', foreground: 'hsl(var(--secondary-foreground))' },
+              muted: { DEFAULT: 'hsl(var(--muted))', foreground: 'hsl(var(--muted-foreground))' },
+              accent: { DEFAULT: 'hsl(var(--accent))', foreground: 'hsl(var(--accent-foreground))' },
+              destructive: { DEFAULT: 'hsl(var(--destructive))', foreground: 'hsl(var(--destructive-foreground))' },
+              border: 'hsl(var(--border))',
+              input: 'hsl(var(--input))',
+              ring: 'hsl(var(--ring))',
+              chart: {
+                '1': 'hsl(var(--chart-1))', '2': 'hsl(var(--chart-2))', '3': 'hsl(var(--chart-3))',
+                '4': 'hsl(var(--chart-4))', '5': 'hsl(var(--chart-5))'
+              },
+              sidebar: {
+                DEFAULT: 'hsl(var(--sidebar-background))', foreground: 'hsl(var(--sidebar-foreground))',
+                primary: 'hsl(var(--sidebar-primary))', 'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+                accent: 'hsl(var(--sidebar-accent))', 'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+                border: 'hsl(var(--sidebar-border))', ring: 'hsl(var(--sidebar-ring))'
+              }
+            },
+            fontFamily: {
+              heading: ['var(--font-heading)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              body: ['var(--font-body)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              display: ['var(--font-display)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              mono: ['var(--font-mono)', 'ui-monospace', 'monospace']
+            },
+            keyframes: {
+              'accordion-down': { from: { height: '0' }, to: { height: 'var(--radix-accordion-content-height)' } },
+              'accordion-up': { from: { height: 'var(--radix-accordion-content-height)' }, to: { height: '0' } }
+            },
+            animation: {
+              'accordion-down': 'accordion-down 0.2s ease-out',
+              'accordion-up': 'accordion-up 0.2s ease-out'
+            }
+          }
+        },
+        plugins: []
+      };
+    </script>
+
+    <style type="text/tailwindcss">
+      @layer base {
+        :root {
+          --background: 0 0% 100%;
+          --foreground: 0 0% 3.9%;
+          --card: 0 0% 100%;
+          --card-foreground: 0 0% 3.9%;
+          --popover: 0 0% 100%;
+          --popover-foreground: 0 0% 3.9%;
+          --primary: 0 0% 9%;
+          --primary-foreground: 0 0% 98%;
+          --secondary: 0 0% 96.1%;
+          --secondary-foreground: 0 0% 9%;
+          --muted: 0 0% 96.1%;
+          --muted-foreground: 0 0% 45.1%;
+          --accent: 0 0% 96.1%;
+          --accent-foreground: 0 0% 9%;
+          --destructive: 0 84.2% 60.2%;
+          --destructive-foreground: 0 0% 98%;
+          --border: 0 0% 89.8%;
+          --input: 0 0% 89.8%;
+          --ring: 0 0% 3.9%;
+          --chart-1: 12 76% 61%;
+          --chart-2: 173 58% 39%;
+          --chart-3: 197 37% 24%;
+          --chart-4: 43 74% 66%;
+          --chart-5: 27 87% 67%;
+          --radius: 0.5rem;
+          --font-heading: ui-sans-serif, system-ui, sans-serif;
+          --font-body: ui-sans-serif, system-ui, sans-serif;
+          --font-display: ui-sans-serif, system-ui, sans-serif;
+          --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+          --sidebar-background: 0 0% 98%;
+          --sidebar-foreground: 240 5.3% 26.1%;
+          --sidebar-primary: 240 5.9% 10%;
+          --sidebar-primary-foreground: 0 0% 98%;
+          --sidebar-accent: 240 4.8% 95.9%;
+          --sidebar-accent-foreground: 240 5.9% 10%;
+          --sidebar-border: 220 13% 91%;
+          --sidebar-ring: 217.2 91.2% 59.8%;
+        }
+        .dark {
+          --background: 0 0% 3.9%;
+          --foreground: 0 0% 98%;
+          --card: 0 0% 3.9%;
+          --card-foreground: 0 0% 98%;
+          --popover: 0 0% 3.9%;
+          --popover-foreground: 0 0% 98%;
+          --primary: 0 0% 98%;
+          --primary-foreground: 0 0% 9%;
+          --secondary: 0 0% 14.9%;
+          --secondary-foreground: 0 0% 98%;
+          --muted: 0 0% 14.9%;
+          --muted-foreground: 0 0% 63.9%;
+          --accent: 0 0% 14.9%;
+          --accent-foreground: 0 0% 98%;
+          --destructive: 0 62.8% 30.6%;
+          --destructive-foreground: 0 0% 98%;
+          --border: 0 0% 14.9%;
+          --input: 0 0% 14.9%;
+          --ring: 0 0% 83.1%;
+          --chart-1: 220 70% 50%;
+          --chart-2: 160 60% 45%;
+          --chart-3: 30 80% 55%;
+          --chart-4: 280 65% 60%;
+          --chart-5: 340 75% 55%;
+          --sidebar-background: 240 5.9% 10%;
+          --sidebar-foreground: 240 4.8% 95.9%;
+          --sidebar-primary: 224.3 76.3% 48%;
+          --sidebar-primary-foreground: 0 0% 100%;
+          --sidebar-accent: 240 3.7% 15.9%;
+          --sidebar-accent-foreground: 240 4.8% 95.9%;
+          --sidebar-border: 240 3.7% 15.9%;
+          --sidebar-ring: 217.2 91.2% 59.8%;
+        }
+      }
+    </style>
+
+    <style>
+      * { border-color: hsl(var(--border)); outline-color: hsl(var(--ring) / 0.5); }
+      html, body { margin: 0; padding: 0; }
+      body {
+        background: #000000;
+        color: hsl(var(--foreground));
+        font-family: var(--font-body);
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+
+    <!-- Babel standalone to transpile JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone@7.24.7/babel.min.js"></script>
+
+    <!-- ESM import map for React, ReactDOM, framer-motion, lucide-react -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "framer-motion": "https://esm.sh/framer-motion@11.16.4?deps=react@18.2.0",
+        "lucide-react": "https://esm.sh/lucide-react@0.475.0?deps=react@18.2.0"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel" data-type="module" data-presets="react">
+      import React, { useState, useEffect, useMemo, useRef } from 'react';
+      import { createRoot } from 'react-dom/client';
+      import { motion, AnimatePresence } from 'framer-motion';
+      import {
+        Menu, X, Globe, ArrowRight, Sparkles, ExternalLink, Lock,
+        Mail, Send, Github, Crown, Award, Shield, Download
+      } from 'lucide-react';
+
+      /* ===================== Translations ===================== */
+      const translations = {
+        ku: {
+          homeTitle: "KRD GROUP بۆ گەشەپێدانی گشتی",
+          homeDesc:
+            "KRD Group تیمێکی پرۆفیشناڵە لە پەرەپێدانی وێبسایت، سۆفتوێر، بەرنامە و یاریەکان. ئێمە ئامەدەین بۆ چارەسەر کردنی هەموو کێشەکان بە شێوەیەکی مۆدێرن و داهێنەرانە بە کوالیتی بەرز و ستانداردی نێودەوڵەتی دابین دەکەین. ئێرە شوێنێکە بۆ بنیاتنانی بیرۆکەکانت و داهێنان.",
+          contactBtn: "بۆ پەیوەندی کردن",
+          projectBtn: "پرۆژەکانمان",
+          aboutTeam: "دەربارەی تیم",
+          aboutDesc:
+            "ئەم تیمە پێکهاتووە لەلایەن محمد بارزان، ژاڵە کاروان، ئەنەس موحسین. ئێمە تیمێکین کاردەکەین بۆ دروستکردنی وێبسایت، سۆفتوێر، بەرنامە، وەهەروەها چارەسەر کردنیان بە شێوەیەکی پێشکەوتوو و ستانداردی جیهانی.",
+          moreinfo: "زانیاری زیاتر",
+          skill: "تواناکان و بەرژەوەندییەکان",
+          skill2: "ئامانجەکانی تیم",
+          skillDesc:
+            "تەکنەلۆژیای نوێ • داهێنان و نوێکردنەوە. • پەرەپێدانی سیستەمی دیجیتاڵ. • فێربوونی بەردەوام. • دروستکردنی پڕۆژەی گەورە و کاری پیشەیی.",
+          aboutDev: "دەربارەی گەشەپێدەر",
+          devinfo: "زانیاری دەربارەی تیم",
+          Mabout:
+            "دامەزێنەر و سەرۆکی تیم، محمد بارزان علی قوتابی بەشی IT سەرپەرشتی و دەستپێکەری پرۆژەکانە، شارەزا لە بواری دروستکردنی وێبسایت، دیزاین، پرۆگرامینگ، بەشێوەیەکی تەواو پێشکەوتوو و ستانداردانە.",
+          Zabout:
+            "بەڕێوبەری کار و باری تیم، ژاڵە کاروان قوتابی بەشی IT، وەرگر و دەسپێکەر و ڕێکخستن و دانانی بیرۆکەی پرۆژەکان بەر لە دەستپێکردنیان، شارەزای تەواوی هەیە لە پرۆگرامینگ و بەڕێوەبردنی وێبسایت.",
+          Aabout:
+            "بەڕێوبەری تیم و پرۆژەکان، ئەنەس موحسین قوتابی بەشی IT، ئەو دانانی بیرۆکەکانی پرۆژەکانە و سەرپەرشتیاری تیمەکەیە لە کاتی بوونی هەر کێشەیەک ئامادە دەبێت بۆ چارەسەرکردنی بە شێوەیەکی تەواو پرۆفیشناڵانە، پشتگیری تیمەکەیە.",
+          lfu: "بە شانازییەوە تیمەکەمان لەلایەن زانکۆی لوبنانی فەرەنسییەوە پشتگیری و چاودێری و سەرپەرشتی دەکرێت. تیمەکەمان قوتابی زانکۆی لوبنانی فەرەنسین لە بەشی تەکنەلۆژیای زانیاری، زانکۆی لوبنانی فەرەنسی تیمەکەی پێکهێناوە بەشێوەیەکی دڵسۆزانە و پرۆفیشناڵانە.",
+          mathSolver:
+            "ئەم پرۆژەیە ئامادە کراوە بۆ قوتابیان، پێکهاتووە لە چەند بابەتێکی شیکارکردنی وانەکانی بیرکاری بە شێوەیەکی زۆر خێرا و وردەکاری.",
+          wifi: "ئەم پرۆژەیە داندراوە بۆ خزمەتگوزاری سودوەرگرتن لە تێستکردنی تۆری وایفای بە شێوەیەکی پێشکەوتوو.",
+          qr: "ئەم پرۆژەیە دروست کراوە بۆ خزمەتگوزاری QR Code & Scan، بەرهەمەکە پێکهاتووە لە دروستکردنی QR Code، دانانی وێنە و دانانی text، وە Scan کردن.",
+          snake:
+            "یارییەکی کلاسیکییە تیایدا یاریزانان کۆنتڕۆڵی مارێکی گەورە دەکەن کە سێو دەخوات بۆ زیادکردنی درێژی. بەرەنگارییەکە ئەوەیە کە خۆت لە بەرکەوتن بە دیوارەکان یان لەشی مارەکە دوور بخەیتەوە کاتێک بە تێپەڕبوونی کات خێراتر دەجوڵێت.",
+          flappy:
+            "Flappy Bird یارییەکی ئالودەکەرە کە یاریزانان کلیک دەکەن بۆ فڕاندنی باڵندەکە بە شێوەیەکی بێکۆتای زۆر سەخت کە بە تێپەڕبوونی کات خێرای و سەختی زیاد دەکات.",
+          conAbout:
+            "گەر دەتەوێت زانیاری زیاتر یاخود پەیوەندیمان پێوە بکەیت ئەوە تکایە یەکێک لە هەڵبژاردەکانی خوارەوە هەڵبژێرە.",
+          weather:
+            "ویبسایتی Kurdistan Weather ویبسایتێکە بۆ پیشاندانی کەش و هەوای شارەکانی کوردستان. لەم ویبسایتەدا بەکارهێنەر دەتوانێت زانیاری وەک پلەی گەرمی، دۆخی کەش و هەوا و زانیارییەکانی تر ببینێت. ویبسایتەکە بە زمانی کوردی دروستکراوە و دیزاینێکی سادە و خێرا هەیە بۆ ئەوەی بەکارهێنانی بۆ هەموو کەس ئاسان بێت.",
+          restmenu:
+            "ئەم ویبسایتە بۆ پیشاندانی مێنیوی خواردنگەکان بە شێوەیەکی ئاسان و جوان دروستکراوە. بەکارهێنەران دەتوانن بە ئاسانی خواردنەکان ببینن، نرخەکان بزانن و زانیاری زیاتر دەربارەی هەر خواردنێک وەرگرن. دیزاینەکە مۆدێرن و گونجاوە بۆ بەکارهێنان لەسەر مۆبایل و کۆمپیوتەر.",
+          shoppingweb:
+            "ئەم ویبسایتە پلاتفۆرمێکی ئۆنلاینە بۆ یارمەتیدانی فرۆشیارەکان بۆ پیشاندانی بەرهەمەکان و فرۆشتنیان بە شێوەیەکی ئاسان و پرۆفیشناڵ. فرۆشیارەکان دەتوانن بەرهەمەکان زیاد بکەن، نرخ و وێنە دابنێن و داواکاریی کڕیاران بەڕێوە ببڕن. دیزاینەکە مۆدێرن و خێراکارە و گونجاوە بۆ مۆبایل و کۆمپیوتەر.",
+          navHome: "سەرەکی",
+          navAbout: "دەربارەی ئێمە",
+          navProject: "پرۆژەکانمان",
+          navService: "خزمەتگوزارییەکانمان",
+          navContact: "پەیوەندی",
+          navApp: "ئەپەکان",
+          contactTitle: "پەیوەندی بکە",
+          founder: "دامەزێنەر و سەرۆک",
+          manager: "بەڕێوبەری تیم",
+          projectManager: "بەڕێوبەری پرۆژە",
+          openProject: "کردنەوەی پرۆژە",
+          privateProject: "🔒 پرۆژەی تایبەت",
+          ourProjects: "پرۆژەکانمان",
+          ourServices: "خزمەتگوزارییەکانمان",
+          ourApps: "ئەپەکانمان",
+          downloadApp: "دابەزاندن",
+          email: "ئیمەیڵ",
+          rights: "جموجورای مافەکان پارێزراون.",
+          restdesc: "ئەم وێبسایتە لەلایەن KRD GROUP بۆ کڕیارێک دروست کراوە، بۆ پیشاندانی مینیوی خواردن، نرخەکان و جۆرە جیاوازەکانی خواردن بە شێوەیەکی مۆدێرن و ئاسان.",
+          shopdesc:"ئەم وێبسایتە لەلایەن KRD GROUP بۆ فرۆشتنی ئۆنلاین دروست کراوە، بۆ پیشاندانی بەرهەمەکان و دابینکردنی ئەزموونێکی ئاسان و خێرا بۆ کڕیاران.",
+          florasdesc:"ئەم وێبسایتە لەلایەن KRD GROUP بۆ کۆمپانیای FLORAS دروست کراوە، بۆ ناساندنی خزمەتگوزارییەکانی گەشت و گوزار و پیشاندانی پەکێج و شوێنە گەشتیارییەکان.",
+          ponginadesc:"ئەم وێبسایتە لەلایەن KRD GROUP بۆ کۆمپانیای PONGINA دروست کراوە، بۆ ناساندنی کۆمپانیا، خزمەتگوزارییەکانی بیناسازی و پیشاندانی پرۆژەکانیان.",
+          safecheckdesc:"SafeCheck پلاتفۆرمێکی مۆدێرن و ئاسانە کە بۆ پشکنین و دڵنیابوونەوەی زانیاری بە شێوەیەکی خێرا و ڕێکخراو دروست کراوە. ئەم پرۆژەیە لەلایەن KRD GROUP دیزاین و گەشەپێدراوە بە مەبەستی دابینکردنی ئەزموونێکی سادە، سەلامەت و بەکارهێنەر دۆست.",
+        },
+      };
+
+      const defaultEnglish = {
+        homeTitle: "KRD GROUP for general development",
+        homeDesc:
+          "KRD Group is a professional team in the development of websites, software, applications and games. We provide modern and innovative solutions with high quality and international standards. It's a place to build your ideas of growth and innovation.",
+        contactBtn: "Contact Us",
+        projectBtn: "View our projects",
+        aboutTeam: "About Team",
+        aboutDesc:
+          "This team consists of Mohammed Barzan, Zhala Karwan, Anas Mohsen. We are a team working to create websites, software, applications, and solutions in an advanced and world-class standard.",
+        moreinfo: "More Info",
+        skill: "Skills & Interests",
+        skill2: "The goals of the team",
+        skillDesc:
+          "• New Technologies\n• Innovation and Update.\n• Digital system development.\n• Continuous learning.\n• Creating large projects and professional work.",
+        aboutDev: "About Developer",
+        devinfo: "Information About a Team",
+        Mabout:
+          "Founder and Team Leader, Mohammed Barzan Ali is a student in the IT department and a project initiator who is an expert in the field of website building, design, and programming, in a fully advanced and standardized manner.",
+        Zabout:
+          "The team manager, Zhalla Karwan, a student of the IT department, the recipient and initiator, and the organization and conceptualization of projects before they start, has extensive experience in programming and website management.",
+        Aabout:
+          "The Team Project Manager, Anas Mohsen, a student in the IT department, is the one who brainstorms the projects and leads the team when any problem arises and is ready to solve it in a professional manner, and supports the team.",
+        lfu: "Our team is proudly supported, supervised by the Lebanese French University, and our team is a student of the Lebanese French University in the Department of Information Technology, the Lebanese French University we are committed to building this team in a dedicated and professional way.",
+        mathSolver:
+          "This project solves mathematical equations quickly and accurately, providing clear step-by-step solutions to help students understand and learn better.",
+        wifi: "A smart WiFi speed testing website designed to measure download speed, upload speed, and ping in real-time, helping users monitor their internet performance easily.",
+        qr: "Modern QR Code Generator & Scanner Web App with Camera Support, Image Scan, Download Option, Multi-Language, Login System, QR History & PWA Installable Design.",
+       conAbout:
+          "If you would like more information or to contact us, please select one of the options below.",
+        weather:
+          "Kurdistan Weather is a website that shows the weather conditions of cities in Kurdistan. Users can easily check information such as temperature, weather status, and other related details. The website is designed in Kurdish language with a simple and fast interface to make it easy for everyone to use.",
+        restdesc:
+          "This website was developed by KRD GROUP for a client, providing a modern and easy way to showcase restaurant menus, food categories, and prices.",
+        shopdesc: 
+          "This e-commerce website was developed by KRD GROUP for a client, offering a smooth and modern online shopping experience.",
+        florasdesc:
+          "This website was developed by KRD GROUP for FLORAS COMPANY to showcase travel services, destinations, and travel packages in a professional way.",
+        ponginadesc:
+          "This website was developed by KRD GROUP for PONGINA COMPANY to present the company, its construction services, and completed projects professionally.",
+       safecheckdesc:
+         "SafeCheck is a modern and user-friendly platform designed to make checking and verifying information fast, simple, and organized. The project was designed and developed by KRD GROUP with a focus on simplicity, safety, and a smooth user experience.",
+        navHome: "Home",
+        navAbout: "About Us",
+        navProject: "Our Project",
+        navService: "Our Service",
+        navContact: "Contact Us",
+        navApp: "Apps",
+        contactTitle: "Contact us",
+        founder: "Founder & Leader",
+        manager: "Team Manager",
+        projectManager: "Team Manager",
+        openProject: "Open Project",
+        privateProject: "🔒 Private Project",
+        ourProjects: "Our Projects",
+        ourServices: "Our Services",
+        ourApps: "Our Apps",
+        downloadApp: "Download",
+        email: "Email",
+        rights: "All rights reserved.",
+      };
+
+      /* ===================== StarField ===================== */
+      function StarField() {
+        const canvasRef = useRef(null);
+        const mouse = useRef({ x: 0.5, y: 0.5, tx: 0.5, ty: 0.5 });
+
+        useEffect(() => {
+          const canvas = canvasRef.current;
+          const ctx = canvas.getContext('2d');
+          let raf;
+          let w = 0, h = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+          let stars = [];
+          let meteors = [];
+          let lastMeteor = 0;
+
+          const palette = ['#f5b942', '#fbbf24', '#fde68a', '#ffffff', '#fcd34d', '#fff7d6'];
+
+          const init = () => {
+            w = canvas.clientWidth;
+            h = canvas.clientHeight;
+            canvas.width = w * dpr;
+            canvas.height = h * dpr;
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            const count = Math.min(380, Math.floor((w * h) / 4200));
+            stars = Array.from({ length: count }, () => ({
+              x: Math.random() * w,
+              y: Math.random() * h,
+              z: Math.random() * 0.8 + 0.2,
+              r: Math.random() * 1.4 + 0.3,
+              tw: Math.random() * Math.PI * 2,
+              tws: Math.random() * 0.02 + 0.005,
+              vx: (Math.random() - 0.5) * 0.04 * (Math.random() * 0.5 + 0.5),
+              vy: (Math.random() - 0.5) * 0.04 * (Math.random() * 0.5 + 0.5),
+              c: palette[Math.floor(Math.random() * palette.length)],
+            }));
+          };
+
+          const spawnMeteor = () => {
+            const fromLeft = Math.random() > 0.5;
+            meteors.push({
+              x: fromLeft ? -50 : w + 50,
+              y: Math.random() * h * 0.5,
+              vx: (fromLeft ? 1 : -1) * (Math.random() * 4 + 6),
+              vy: Math.random() * 3 + 2,
+              life: 1,
+              len: Math.random() * 80 + 80,
+              c: palette[Math.floor(Math.random() * 3)],
+            });
+          };
+
+          const onResize = () => init();
+          const onMove = (e) => {
+            mouse.current.tx = e.clientX / window.innerWidth;
+            mouse.current.ty = e.clientY / window.innerHeight;
+          };
+          const onLeave = () => {
+            mouse.current.tx = 0.5;
+            mouse.current.ty = 0.5;
+          };
+
+          const render = (ts) => {
+            mouse.current.x += (mouse.current.tx - mouse.current.x) * 0.06;
+            mouse.current.y += (mouse.current.ty - mouse.current.y) * 0.06;
+            const mx = (mouse.current.x - 0.5) * 2;
+            const my = (mouse.current.y - 0.5) * 2;
+
+            ctx.clearRect(0, 0, w, h);
+
+            for (let i = 0; i < stars.length; i++) {
+              const s = stars[i];
+              s.tw += s.tws;
+              s.x += s.vx;
+              s.y += s.vy;
+              if (s.x < 0) s.x = w;
+              if (s.x > w) s.x = 0;
+              if (s.y < 0) s.y = h;
+              if (s.y > h) s.y = 0;
+
+              const tw = (Math.sin(s.tw) + 1) * 0.5;
+              const ox = -mx * 40 * s.z;
+              const oy = -my * 40 * s.z;
+              const x = s.x + ox;
+              const y = s.y + oy;
+              const alpha = (0.35 + tw * 0.65) * s.z;
+              const radius = s.r * (0.7 + tw * 0.6) * s.z;
+
+              ctx.globalAlpha = alpha;
+              ctx.fillStyle = s.c;
+              ctx.beginPath();
+              ctx.arc(x, y, radius, 0, Math.PI * 2);
+              ctx.fill();
+
+              if (s.r > 1) {
+                ctx.globalAlpha = alpha * 0.16;
+                ctx.beginPath();
+                ctx.arc(x, y, radius * 4.5, 0, Math.PI * 2);
+                ctx.fill();
+              }
+            }
+
+            ctx.globalAlpha = 1;
+            ctx.lineWidth = 0.5;
+            for (let i = 0; i < stars.length; i++) {
+              const a = stars[i];
+              if (a.r < 1) continue;
+              const ax = a.x + -mx * 40 * a.z;
+              const ay = a.y + -my * 40 * a.z;
+              for (let j = i + 1; j < stars.length; j++) {
+                const b = stars[j];
+                if (b.r < 1) continue;
+                const bx = b.x + -mx * 40 * b.z;
+                const by = b.y + -my * 40 * b.z;
+                const dx = ax - bx;
+                const dy = ay - by;
+                const d2 = dx * dx + dy * dy;
+                if (d2 < 14000) {
+                  ctx.globalAlpha = (1 - d2 / 14000) * 0.22;
+                  ctx.strokeStyle = '#fbbf24';
+                  ctx.beginPath();
+                  ctx.moveTo(ax, ay);
+                  ctx.lineTo(bx, by);
+                  ctx.stroke();
+                }
+              }
+            }
+
+            if (ts - lastMeteor > 2600 && meteors.length < 2) {
+              spawnMeteor();
+              lastMeteor = ts;
+            }
+            for (let i = meteors.length - 1; i >= 0; i--) {
+              const m = meteors[i];
+              m.x += m.vx;
+              m.y += m.vy;
+              m.life -= 0.006;
+              const tailX = m.x - (m.vx / Math.hypot(m.vx, m.vy)) * m.len;
+              const tailY = m.y - (m.vy / Math.hypot(m.vx, m.vy)) * m.len;
+              const grad = ctx.createLinearGradient(m.x, m.y, tailX, tailY);
+              grad.addColorStop(0, `rgba(255,247,214,${m.life})`);
+              grad.addColorStop(0.4, `rgba(251,191,36,${m.life * 0.6})`);
+              grad.addColorStop(1, 'rgba(245,185,66,0)');
+              ctx.globalAlpha = 1;
+              ctx.strokeStyle = grad;
+              ctx.lineWidth = 2;
+              ctx.lineCap = 'round';
+              ctx.beginPath();
+              ctx.moveTo(m.x, m.y);
+              ctx.lineTo(tailX, tailY);
+              ctx.stroke();
+              ctx.globalAlpha = m.life;
+              ctx.fillStyle = '#fff7d6';
+              ctx.beginPath();
+              ctx.arc(m.x, m.y, 1.8, 0, Math.PI * 2);
+              ctx.fill();
+
+              if (m.life <= 0 || m.x < -120 || m.x > w + 120 || m.y > h + 120) {
+                meteors.splice(i, 1);
+              }
+            }
+
+            ctx.globalAlpha = 1;
+            raf = requestAnimationFrame(render);
+          };
+
+          init();
+          raf = requestAnimationFrame(render);
+          window.addEventListener('resize', onResize);
+          window.addEventListener('mousemove', onMove);
+          window.addEventListener('mouseleave', onLeave);
+          return () => {
+            cancelAnimationFrame(raf);
+            window.removeEventListener('resize', onResize);
+            window.removeEventListener('mousemove', onMove);
+            window.removeEventListener('mouseleave', onLeave);
+          };
+        }, []);
+
+        return (
+          <canvas
+            ref={canvasRef}
+            className="absolute inset-0 w-full h-full pointer-events-none"
+          />
+        );
+      }
+
+      /* ===================== SunRays ===================== */
+      function SunRays({ children, size = 260 }) {
+        const rays = 21;
+        return (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9, rotate: -8 }}
+            animate={{ opacity: 1, scale: 1, rotate: 0 }}
+            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+            className="relative grid place-items-center"
+            style={{ width: size, height: size }}
+          >
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ duration: 60, repeat: Infinity, ease: 'linear' }}
+              className="absolute inset-0"
+            >
+              {Array.from({ length: rays }).map((_, i) => {
+                const angle = (360 / rays) * i;
+                return (
+                  <div
+                    key={i}
+                    className="absolute left-1/2 top-1/2 origin-bottom"
+                    style={{
+                      width: 0,
+                      height: 0,
+                      transform: `translate(-50%, -100%) rotate(${angle}deg) translateY(-${size / 2 - 6}px)`,
+                    }}
+                  >
+                    <div
+                      className="w-[3px] rounded-full bg-gradient-to-t from-[#f5b942] via-[#fbbf24] to-transparent shadow-[0_0_10px_rgba(245,185,66,0.7)]"
+                      style={{ height: 46 }}
+                    />
+                  </div>
+                );
+              })}
+            </motion.div>
+
+            <motion.div
+              animate={{ rotate: -360 }}
+              transition={{ duration: 90, repeat: Infinity, ease: 'linear' }}
+              className="absolute inset-0"
+            >
+              {Array.from({ length: rays }).map((_, i) => {
+                const angle = (360 / rays) * i + (360 / rays / 2);
+                return (
+                  <div
+                    key={i}
+                    className="absolute left-1/2 top-1/2 origin-bottom"
+                    style={{
+                      width: 0,
+                      height: 0,
+                      transform: `translate(-50%, -100%) rotate(${angle}deg) translateY(-${size / 2 - 10}px)`,
+                    }}
+                  >
+                    <div
+                      className="w-[1.5px] rounded-full bg-gradient-to-t from-[#fbbf24]/60 to-transparent"
+                      style={{ height: 28 }}
+                    />
+                  </div>
+                );
+              })}
+            </motion.div>
+
+            <div
+              className="absolute rounded-full blur-[40px] bg-[#f5b942]/25"
+              style={{ width: size * 0.7, height: size * 0.7 }}
+            />
+
+            <div
+              className="relative rounded-full p-[3px] bg-gradient-to-br from-[#f5b942] via-[#fbbf24] to-[#f5b942] shadow-[0_20px_50px_-12px_rgba(0,0,0,0.55)] overflow-hidden"
+              style={{ width: size * 0.62, height: size * 0.62 }}
+            >
+              <div className="w-full h-full rounded-full overflow-hidden bg-[#0a0d18] grid place-items-center">
+                {children ?? (
+                  <span className="font-extrabold text-white text-3xl tracking-tight">A</span>
+                )}
+              </div>
+            </div>
+          </motion.div>
+        );
+      }
+
+      /* ===================== FacetFrame ===================== */
+      function FacetFrame({ children, size = 96, glow = true, fluid = false }) {
+        const clip =
+          'polygon(50% 0%, 72% 6%, 94% 22%, 100% 50%, 94% 78%, 72% 94%, 50% 100%, 28% 94%, 6% 78%, 0% 50%, 6% 22%, 28% 6%)';
+
+        const sizing = fluid
+          ? { width: '100%', aspectRatio: '1 / 1' }
+          : { width: size, height: size };
+
+        return (
+          <motion.div
+            initial={{ opacity: 0, rotate: -6, scale: 0.9 }}
+            whileInView={{ opacity: 1, rotate: 0, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="relative mx-auto w-full"
+            style={sizing}
+          >
+            <div
+              className="absolute inset-0 bg-gradient-to-br from-[#f5b942] via-[#fbbf24] to-[#f5b942] shadow-[0_8px_24px_-6px_rgba(245,185,66,0.5)]"
+              style={{ clipPath: clip }}
+            />
+            <div
+              className="absolute bg-[#0a0d18] overflow-hidden"
+              style={{ inset: 3, clipPath: clip }}
+            >
+              {children}
+            </div>
+            <div
+              className="absolute pointer-events-none border border-[#fbbf24]/40"
+              style={{ inset: 7, clipPath: clip }}
+            />
+            {glow && (
+              <div className="absolute -inset-3 -z-10 rounded-full bg-[#f5b942]/15 blur-[28px] pointer-events-none" />
+            )}
+          </motion.div>
+        );
+      }
+
+      /* ===================== Header ===================== */
+      function Header({ lang, setLang, t, activeSection, onNavigate, brandImage }) {
+        const [scrolled, setScrolled] = useState(false);
+        const [mobileOpen, setMobileOpen] = useState(false);
+
+        useEffect(() => {
+          const onScroll = () => setScrolled(window.scrollY > 20);
+          window.addEventListener('scroll', onScroll);
+          return () => window.removeEventListener('scroll', onScroll);
+        }, []);
+
+        const navItems = [
+          { id: 'home', label: t.navHome },
+          { id: 'about', label: t.navAbout },
+          { id: 'project', label: t.navProject },
+          { id: 'ourservice', label: t.navService },
+          { id: 'app', label: t.navApp },
+          { id: 'contact', label: t.navContact },
+        ];
+
+        const handleNav = (id) => {
+          onNavigate(id);
+          setMobileOpen(false);
+        };
+
+        return (
+          <header
+            dir={lang === 'ku' ? 'rtl' : 'ltr'}
+            className={`fixed top-0 left-0 right-0 z-[999] transition-all duration-500 ${
+              scrolled
+                ? 'bg-[#060810]/80 backdrop-blur-xl border-b border-white/[0.08]'
+                : 'bg-transparent border-b border-transparent'
+            }`}
+          >
+            <div className="max-w-[1140px] mx-auto px-6 py-3.5 flex items-center justify-between">
+              <button onClick={() => handleNav('home')} className="flex items-center gap-3 group">
+                <div className="relative w-10 h-10 rounded-xl overflow-hidden p-[2px] bg-gradient-to-br from-[#f5b942] via-[#fbbf24] to-[#fbbf24] shadow-[0_6px_20px_-4px_rgba(109,94,252,0.55)]">
+                  <div className="w-full h-full rounded-[10px] overflow-hidden bg-[#0a0d18] grid place-items-center">
+                    {brandImage ? (
+                      <img src={brandImage} alt="KRD Group logo" className="w-full h-full object-cover" />
+                    ) : (
+                      <span className="font-extrabold text-white text-sm tracking-tight">A</span>
+                    )}
+                  </div>
+                </div>
+                <span className="font-extrabold text-[15px] tracking-tight text-white">KRD GROUP</span>
+              </button>
+
+              <nav className="hidden md:flex items-center gap-1">
+                {navItems.map((item) => (
+                  <button
+                    key={item.id}
+                    onClick={() => handleNav(item.id)}
+                    className={`px-4 py-2 rounded-full text-[14px] font-semibold transition-all duration-300 ${
+                      activeSection === item.id
+                        ? 'text-white bg-gradient-to-br from-[#f5b942]/20 to-[#fbbf24]/12 shadow-[inset_0_0_0_1px_rgba(109,94,252,0.35)]'
+                        : 'text-[#8992a9] hover:text-white hover:bg-white/[0.04]'
+                    }`}
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </nav>
+
+              <div className="flex items-center gap-2">
+                <div className="relative">
+                  <Globe className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-[#8992a9] pointer-events-none" />
+                  <select
+                    value={lang}
+                    onChange={(e) => setLang(e.target.value)}
+                    className="appearance-none pl-8 pr-3 py-2 rounded-full bg-white/[0.035] border border-white/[0.09] text-[13px] font-semibold text-white cursor-pointer hover:border-white/[0.16] hover:bg-white/[0.06] transition-all duration-300"
+                  >
+                    <option value="en" className="bg-[#0a0d18] text-white">English</option>
+                    <option value="ku" className="bg-[#0a0d18] text-white">کوردی</option>
+                  </select>
+                </div>
+
+                <button
+                  onClick={() => setMobileOpen(!mobileOpen)}
+                  className="md:hidden w-10 h-10 grid place-items-center rounded-full bg-white/[0.035] border border-white/[0.09] text-white"
+                >
+                  {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+                </button>
+              </div>
+            </div>
+
+            <AnimatePresence>
+              {mobileOpen && (
+                <motion.nav
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.25 }}
+                  className="md:hidden mx-4 mb-4 p-3 rounded-2xl bg-[#0a0d18]/92 backdrop-blur-xl border border-white/[0.09] shadow-[0_30px_80px_-20px_rgba(0,0,0,0.6)] flex flex-col gap-1"
+                >
+                  {navItems.map((item) => (
+                    <button
+                      key={item.id}
+                      onClick={() => handleNav(item.id)}
+                      className={`px-4 py-3 rounded-xl text-[15px] font-semibold text-center transition-all duration-300 ${
+                        activeSection === item.id
+                          ? 'text-white bg-gradient-to-br from-[#f5b942]/20 to-[#fbbf24]/12'
+                          : 'text-[#8992a9] hover:text-white hover:bg-white/[0.04]'
+                      }`}
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </motion.nav>
+              )}
+            </AnimatePresence>
+          </header>
+        );
+      }
+
+      /* ===================== Hero ===================== */
+      function Hero({ t, lang, onNavigate, brandImage }) {
+        const rtl = lang === 'ku';
+        return (
+          <section className="pt-32 pb-12 px-6">
+            <div className="max-w-[1140px] mx-auto grid md:grid-cols-[1.3fr_0.7fr] gap-10 items-center">
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                className="relative rounded-[26px] p-8 md:p-10 bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_20px_50px_-12px_rgba(0,0,0,0.55)] overflow-hidden"
+              >
+                <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-[#f5b942]/20 blur-[80px] pointer-events-none" />
+                <div className="relative">
+                  <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/[0.09] bg-white/[0.035] text-[12.5px] font-semibold tracking-wide text-[#8992a9]">
+                    <Sparkles className="w-3.5 h-3.5 text-[#fbbf24]" />
+                    {rtl ? 'بەخێرهاتن' : 'Welcome to'}
+                  </span>
+
+                  <h1 className="mt-5 text-[clamp(32px,4vw,46px)] leading-[1.12] font-extrabold tracking-tight bg-gradient-to-b from-white to-[#cfd4e6] bg-clip-text text-transparent">
+                    {t.homeTitle}
+                  </h1>
+
+                  <p className="mt-4 text-[17px] leading-[1.65] text-[#b8bfd4] max-w-xl">{t.homeDesc}</p>
+
+                  <div className={`flex gap-3 mt-7 flex-wrap ${rtl ? 'flex-row-reverse' : ''}`}>
+                    <button
+                      onClick={() => onNavigate('contact')}
+                      className="group inline-flex items-center gap-2 px-5 py-3.5 rounded-full font-semibold text-[14.5px] text-white bg-gradient-to-br from-[#f5b942] via-[#fbbf24] to-[#fbbf24] shadow-[0_10px_30px_-8px_rgba(245,185,66,0.65)] hover:shadow-[0_16px_40px_-8px_rgba(245,185,66,0.8)] hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      {t.contactBtn}
+                      <ArrowRight className={`w-4 h-4 ${rtl ? 'rotate-180' : ''} group-hover:translate-x-0.5 transition-transform`} />
+                    </button>
+                    <button
+                      onClick={() => onNavigate('project')}
+                      className="inline-flex items-center gap-2 px-5 py-3.5 rounded-full font-semibold text-[14.5px] text-white bg-white/[0.035] border border-white/[0.09] hover:border-white/[0.16] hover:bg-white/[0.06] hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      {t.projectBtn}
+                    </button>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, scale: 0.92 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
+                className="relative mx-auto w-full flex justify-center"
+              >
+                <SunRays size={280}>
+                  <img src={brandImage} alt="KRD group" className="w-full h-full object-cover" />
+                </SunRays>
+                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-24 h-24 rounded-full bg-[#fbbf24]/20 blur-[50px] pointer-events-none" />
+              </motion.div>
+            </div>
+
+            <div className="max-w-[1140px] mx-auto grid md:grid-cols-2 gap-6 mt-8">
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.6 }}
+                className="rounded-[20px] p-8 bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)] hover:-translate-y-1 hover:border-white/[0.16] transition-all duration-500"
+              >
+                <div className="text-[12px] tracking-[0.14em] uppercase font-bold text-[#fbbf24]">{t.aboutTeam}</div>
+                <h2 className="mt-1.5 text-[26px] font-extrabold tracking-tight text-white">KRD GROUP</h2>
+                <p className="mt-3 text-[15px] leading-[1.65] text-[#b8bfd4]">{t.aboutDesc}</p>
+                <button
+                  onClick={() => onNavigate('about')}
+                  className="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-full font-semibold text-[14px] text-white bg-gradient-to-br from-[#f5b942] via-[#fbbf24] to-[#fbbf24] shadow-[0_10px_30px_-8px_rgba(245,185,66,0.65)] hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  {t.moreinfo}
+                </button>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+                className="rounded-[20px] p-8 bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)] hover:-translate-y-1 hover:border-white/[0.16] transition-all duration-500"
+              >
+                <div className="text-[12px] tracking-[0.14em] uppercase font-bold text-[#fbbf24]">{t.skill}</div>
+                <h2 className="mt-1.5 text-[26px] font-extrabold tracking-tight text-white">{t.skill2}</h2>
+                <div className="mt-4 space-y-3">
+                  {t.skillDesc.split('\n').map((line, i) => (
+                    <div key={i} className="flex items-start gap-3">
+                      <span className="w-2.5 h-2.5 mt-1.5 rounded-full flex-none bg-gradient-to-br from-[#f5b942] to-[#fbbf24] shadow-[0_0_8px_rgba(245,185,66,0.6)]" />
+                      <p className="text-[15px] leading-[1.6] text-[#b8bfd4]">{line.replace(/^[•\s]+/, '')}</p>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+            </div>
+          </section>
+        );
+      }
+
+      /* ===================== AboutDeveloper ===================== */
+      function AboutDeveloper({ t, lang, images }) {
+        const rtl = lang === 'ku';
+        const members = [
+          { img: images.member1, name: 'Mohammed Barzan Ali', role: t.founder, num: '01', icon: Crown, desc: t.Mabout, link: 'https://mba.amzgroup.xyz', emoji: '👑' },
+          { img: images.member3, name: 'Anas Mohsin', role: t.projectManager, num: '02', icon: Shield, desc: t.Aabout, link: null, emoji: '🎖️' },
+          { img: images.member2, name: 'Zhalla Karwan', role: t.manager, num: '03', icon: Award, desc: t.Zabout, link: 'https://zhalla.amzgroup.xyz', emoji: '🎖️' },
+        ];
+
+        return (
+          <section className="px-6 py-12">
+            <div className="max-w-[1140px] mx-auto">
+              <div className="rounded-[26px] p-8 md:p-10 bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)]">
+                <div className="text-[12px] tracking-[0.14em] uppercase font-bold text-[#fbbf24]">{t.aboutDev}</div>
+                <h2 className="mt-1.5 text-[28px] font-extrabold tracking-tight text-white">{t.devinfo}</h2>
+
+                <div className="grid md:grid-cols-3 gap-6 mt-8">
+                  {members.map((m, i) => {
+                    const Icon = m.icon;
+                    return (
+                      <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: 24 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.2 }}
+                        transition={{ duration: 0.5, delay: i * 0.1 }}
+                        className="group rounded-[20px] p-7 bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)] hover:-translate-y-1.5 hover:border-[#f5b942]/40 hover:shadow-[0_24px_60px_-18px_rgba(245,185,66,0.45)] transition-all duration-500"
+                      >
+                        <FacetFrame fluid>
+                          <img src={m.img} alt={m.name} className="w-full h-full object-cover" />
+                        </FacetFrame>
+
+                        <div className="mt-5 inline-flex items-center gap-2 text-[12.5px] font-bold text-[#fbbf24] tracking-wide">
+                          <span className="w-6 h-6 rounded-full grid place-items-center text-[11px] text-white bg-[#fbbf24]/12 border border-[#fbbf24]/35">
+                            {m.num}
+                          </span>
+                          {m.role}
+                        </div>
+
+                        <h3 className="mt-3 text-[19px] font-bold text-white flex items-center gap-2">
+                          <span>{m.emoji}</span>
+                          {m.name}
+                        </h3>
+                        <p className="mt-2 text-[14.5px] leading-[1.65] text-[#8992a9]">{m.desc}</p>
+
+                        {m.link && (
+                          <a
+                            href={m.link}
+                            target="_blank"
+                            rel="noreferrer"
+                            className={`mt-5 inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold text-[13.5px] text-white bg-gradient-to-br from-[#f5b942] via-[#fbbf24] to-[#fbbf24] shadow-[0_8px_20px_-8px_rgba(245,185,66,0.7)] hover:-translate-y-0.5 transition-all duration-300 ${rtl ? 'flex-row-reverse' : ''}`}
+                          >
+                            {t.moreinfo}
+                            <ArrowRight className={`w-3.5 h-3.5 ${rtl ? 'rotate-180' : ''}`} />
+                          </a>
+                        )}
+                      </motion.div>
+                    );
+                  })}
+                </div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 24 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  className="mt-6 rounded-[20px] p-7 bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)] flex flex-col md:flex-row items-center gap-6"
+                >
+                  <div className="flex-none w-40 md:w-48">
+                    <FacetFrame fluid glow={false}>
+                      <img src={images.university} alt="Lebanese French University" className="w-full h-full object-cover" />
+                    </FacetFrame>
+                  </div>
+                  <div className="text-center md:text-left">
+                    <h3 className="text-[19px] font-bold text-white">Lebanese French University</h3>
+                    <p className="mt-2 text-[14.5px] leading-[1.65] text-[#8992a9]">{t.lfu}</p>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+          </section>
+        );
+      }
+
+      /* ===================== Projects ===================== */
+      const projectsData = [
+        { key: 'math', title: 'MATHEMATICS SOLVER', descKey: 'mathSolver', imageKey: 'math', link: 'https://math.krdgroup.dev/' },
+        { key: 'weather', title: 'WEATHER KRD', descKey: 'weather', imageKey: 'weather', link: 'https://weather.krdgroup.dev/' },
+        { key: 'wifi', title: 'SPEED WIFI', descKey: 'wifi', imageKey: 'wifi', link: 'https://wifi.krdgroup.dev/' },
+        { key: 'qr', title: 'QRCODE PRO', descKey: 'qr', imageKey: 'qr', link: 'https://qrcode.krdgroup.dev/' },
+        { key: 'safecheck', title: 'SafeCheck', descKey: 'safecheckdesc', imageKey: 'safecheck', link: 'https://safecheck.krdgroup.dev/' },
+      ];
+
+      function Projects({ t, lang, images }) {
+        const rtl = lang === 'ku';
+
+        return (
+          <section className="px-6 py-12">
+            <div className="max-w-[1140px] mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="text-center mb-10"
+              >
+                <div className="text-[12px] tracking-[0.14em] uppercase font-bold text-[#fbbf24]">{t.ourProjects}</div>
+                <h2 className="mt-2 text-[32px] font-extrabold tracking-tight bg-gradient-to-b from-white to-[#cfd4e6] bg-clip-text text-transparent">
+                  {t.navProject}
+                </h2>
+              </motion.div>
+
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {projectsData.map((p, i) => {
+                  const isPrivate = !p.link;
+                  return (
+                    <motion.article
+                      key={p.key}
+                      initial={{ opacity: 0, y: 28 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, amount: 0.15 }}
+                      transition={{ duration: 0.5, delay: (i % 3) * 0.1 }}
+                      className="group relative rounded-[20px] overflow-hidden bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)] hover:-translate-y-1.5 hover:border-[#f5b942]/40 hover:shadow-[0_24px_60px_-18px_rgba(245,185,66,0.45)] transition-all duration-500 flex flex-col"
+                    >
+                      <div className="relative h-48 overflow-hidden">
+                        <img src={images[p.imageKey]} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d18] via-transparent to-transparent" />
+                      </div>
+                      <div className="p-6 flex flex-col flex-1">
+                        <h3 className="text-[19px] font-bold text-white tracking-tight">{p.title}</h3>
+                        <p className="mt-2 text-[14.5px] leading-[1.65] text-[#8992a9] flex-1">{t[p.descKey]}</p>
+                        {isPrivate ? (
+                          <div className={`mt-5 inline-flex items-center gap-2 px-4 py-2.5 rounded-full font-bold text-[13px] text-[#8992a9] bg-white/[0.04] border border-white/[0.09] self-start ${rtl ? 'flex-row-reverse' : ''}`}>
+                            <Lock className="w-3.5 h-3.5" />
+                            {t.privateProject}
+                          </div>
+                        ) : (
+                          <a
+                            href={p.link}
+                            target="_blank"
+                            rel="noreferrer"
+                            className={`mt-5 inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-bold text-[13.5px] text-[#0a0d18] bg-gradient-to-br from-[#f5b942] to-[#fbbf24] shadow-[0_8px_20px_-8px_rgba(245,185,66,0.7)] hover:-translate-y-0.5 hover:shadow-[0_12px_26px_-8px_rgba(245,185,66,0.85)] transition-all duration-300 self-start ${rtl ? 'flex-row-reverse' : ''}`}
+                          >
+                            {t.openProject}
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        )}
+                      </div>
+                    </motion.article>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        );
+      }
+
+      /* ===================== Services ===================== */
+      const servicesData = [
+        { key: 'restaurant', title: 'RESTAURANT MENU', descKey: 'restdesc', imageKey: 'restaurant', link: 'https://restaurant.krdgroup.dev/' },
+        { key: 'shopping', title: 'SHOPPING WEBSITE', descKey: 'shopdesc', imageKey: 'shopping', link: 'https://shopping.krdgroup.dev/' },
+          { key: 'florasco', title: 'FLORAS COMPANY', descKey: 'florasdesc', imageKey: 'florasco', link: 'https://florascompany.krdgroup.dev//' },
+       { key: 'pongina', title: 'PONGINA COMPANY', descKey: 'ponginadesc', imageKey: 'pongina', link: 'https://ponginacompany.com//' },
+      
+      ];
+
+      function Services({ t, lang, images }) {
+        const rtl = lang === 'ku';
+
+        return (
+          <section className="px-6 py-12">
+            <div className="max-w-[1140px] mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="text-center mb-10"
+              >
+                <div className="text-[12px] tracking-[0.14em] uppercase font-bold text-[#f5b942]">{t.ourServices}</div>
+                <h2 className="mt-2 text-[32px] font-extrabold tracking-tight bg-gradient-to-b from-white to-[#cfd4e6] bg-clip-text text-transparent">
+                  {t.navService}
+                </h2>
+              </motion.div>
+
+              <div className="grid sm:grid-cols-2 gap-6">
+                {servicesData.map((s, i) => (
+                  <motion.article
+                    key={s.key}
+                    initial={{ opacity: 0, y: 28 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.15 }}
+                    transition={{ duration: 0.5, delay: i * 0.1 }}
+                    className="group relative rounded-[20px] overflow-hidden bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)] hover:-translate-y-1.5 hover:border-[#f5b942]/40 hover:shadow-[0_24px_60px_-18px_rgba(245,185,66,0.45)] transition-all duration-500 flex flex-col"
+                  >
+                    <div className="relative h-48 overflow-hidden">
+                      <img src={images[s.imageKey]} alt={s.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d18] via-transparent to-transparent" />
+                    </div>
+                    <div className="p-6 flex flex-col flex-1">
+                      <h3 className="text-[19px] font-bold text-white tracking-tight">{s.title}</h3>
+                      <p className="mt-2 text-[14.5px] leading-[1.65] text-[#8992a9] flex-1">{t[s.descKey]}</p>
+                      <a
+                        href={s.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={`mt-5 inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-bold text-[13.5px] text-[#0a0d18] bg-gradient-to-br from-[#f5b942] to-[#fbbf24] shadow-[0_8px_20px_-8px_rgba(245,185,66,0.7)] hover:-translate-y-0.5 hover:shadow-[0_12px_26px_-8px_rgba(245,185,66,0.85)] transition-all duration-300 self-start ${rtl ? 'flex-row-reverse' : ''}`}
+                      >
+                        {t.openProject}
+                        <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                    </div>
+                  </motion.article>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      }
+
+
+      /* ===================== Apps ===================== */
+      const appData = [
+        {
+          key: 'krdcv',
+          title: 'KRD CV',
+          descEn: 'KRD CV is a modern and easy-to-use application designed to help users create professional CVs quickly and efficiently. With a clean interface, organized sections, and simple tools, users can enter their personal information, education, skills, experience, and other details to build a complete and professional resume. KRD CV is developed by KRD GROUP with a focus on simplicity, speed, and a smooth user experience.',
+          descKu: 'KRD CV بەرنامەیەکی مۆدێرن و ئاسانە بۆ دروستکردنی CV ـی پرۆفیشناڵ بە شێوەیەکی خێرا و ڕێکخراو. بەکارهێنەر دەتوانێت زانیاری کەسی، خوێندن، تواناکان، ئەزموونی کار و زانیارییە پێویستەکانی تر زیاد بکات و CV ـێکی تەواو و جوان دروست بکات. ئەم بەرنامەیە لەلایەن KRD GROUP گەشەپێدراوە و سەرنجی خراوەتە سەر سادەیی، خێرایی و ئەزموونێکی باشی بەکارهێنەر.',
+          imageKey: 'appcv',
+          file: 'https://apps.microsoft.com/detail/9P3L63THSP41'
+        },
+      
+      ];
+
+      function Apps({ t, lang, images }) {
+        const rtl = lang === 'ku';
+
+        return (
+          <section className="px-6 py-12">
+            <div className="max-w-[1140px] mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="text-center mb-10"
+              >
+                <div className="text-[12px] tracking-[0.14em] uppercase font-bold text-[#f5b942]">{t.ourApps}</div>
+                <h2 className="mt-2 text-[32px] font-extrabold tracking-tight bg-gradient-to-b from-white to-[#cfd4e6] bg-clip-text text-transparent">
+                  {t.navApp}
+                </h2>
+              </motion.div>
+
+              <div className="grid sm:grid-cols-2 gap-6">
+                {appData.map((app, i) => (
+                  <motion.article
+                    key={app.key}
+                    initial={{ opacity: 0, y: 28 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.15 }}
+                    transition={{ duration: 0.5, delay: i * 0.1 }}
+                    className="group relative rounded-[20px] overflow-hidden bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_4px_14px_rgba(0,0,0,0.28)] hover:-translate-y-1.5 hover:border-[#f5b942]/40 hover:shadow-[0_24px_60px_-18px_rgba(245,185,66,0.45)] transition-all duration-500 flex flex-col"
+                  >
+                    <div className="relative h-48 overflow-hidden bg-[#0a0d18] flex items-center justify-center">
+                      <img
+                        src={images[app.imageKey]}
+                        alt={app.title}
+                        className="h-32 w-32 object-cover rounded-[24px] group-hover:scale-105 transition-transform duration-700"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d18] via-transparent to-transparent pointer-events-none" />
+                    </div>
+
+                    <div className="p-6 flex flex-col flex-1">
+                      <h3 className="text-[19px] font-bold text-white tracking-tight">{app.title}</h3>
+                      <p className="mt-2 text-[14.5px] leading-[1.65] text-[#8992a9] flex-1">
+                        {rtl ? app.descKu : app.descEn}
+                      </p>
+
+                      <a
+                        href={app.file}
+                        download
+                        className={`mt-5 inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-bold text-[13.5px] text-[#0a0d18] bg-gradient-to-br from-[#f5b942] to-[#fbbf24] shadow-[0_8px_20px_-8px_rgba(245,185,66,0.7)] hover:-translate-y-0.5 hover:shadow-[0_12px_26px_-8px_rgba(245,185,66,0.85)] transition-all duration-300 self-start ${rtl ? 'flex-row-reverse' : ''}`}
+                      >
+                        {t.downloadApp}
+                        <Download className="w-3.5 h-3.5" />
+                      </a>
+                    </div>
+                  </motion.article>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      }
+
+      /* ===================== Contact ===================== */
+      function Contact({ t, lang }) {
+        const rtl = lang === 'ku';
+        const options = [
+          { label: t.email, href: 'mailto:info@krdgroup.dev', icon: Mail, primary: true },
+          { label: 'Telegram', href: 'https://t.me/krdgroup_dev', icon: Send, primary: false },
+          { label: 'GitHub', href: 'https://github.com/amz-group', icon: Github, primary: false },
+        ];
+
+        return (
+          <section className="px-6 py-12">
+            <div className="max-w-[1140px] mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.6 }}
+                className="relative rounded-[26px] p-8 md:p-12 bg-gradient-to-b from-white/[0.045] to-white/[0.012] border border-white/[0.09] shadow-[0_20px_50px_-12px_rgba(0,0,0,0.55)] overflow-hidden text-center"
+              >
+                <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-80 h-80 rounded-full bg-[#f5b942]/15 blur-[90px] pointer-events-none" />
+                <div className="relative">
+                  <div className="text-[12px] tracking-[0.14em] uppercase font-bold text-[#fbbf24]">Contact</div>
+                  <h2 className="mt-2 text-[32px] font-extrabold tracking-tight bg-gradient-to-b from-white to-[#cfd4e6] bg-clip-text text-transparent">
+                    {t.contactTitle}
+                  </h2>
+                  <p className="mt-4 text-[17px] leading-[1.65] text-[#b8bfd4] max-w-2xl mx-auto">{t.conAbout}</p>
+
+                  <div className={`flex gap-3 mt-8 flex-wrap justify-center ${rtl ? 'flex-row-reverse' : ''}`}>
+                    {options.map((o, i) => {
+                      const Icon = o.icon;
+                      return (
+                        <a
+                          key={i}
+                          href={o.href}
+                          target={o.href.startsWith('http') ? '_blank' : undefined}
+                          rel="noreferrer"
+                          className={`group inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full font-semibold text-[14.5px] transition-all duration-300 hover:-translate-y-0.5 ${
+                            o.primary
+                              ? 'text-white bg-gradient-to-br from-[#f5b942] via-[#fbbf24] to-[#fbbf24] shadow-[0_10px_30px_-8px_rgba(245,185,66,0.65)] hover:shadow-[0_16px_40px_-8px_rgba(245,185,66,0.8)]'
+                              : 'text-white bg-white/[0.035] border border-white/[0.09] hover:border-white/[0.16] hover:bg-white/[0.06]'
+                          }`}
+                        >
+                          <Icon className="w-4 h-4" />
+                          {o.label}
+                        </a>
+                      );
+                    })}
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </section>
+        );
+      }
+
+      /* ===================== Footer ===================== */
+      function Footer({ t }) {
+        const [year, setYear] = useState('');
+        useEffect(() => setYear(new Date().getFullYear()), []);
+        return (
+          <footer className="px-6 py-12 border-t border-white/[0.09] text-[#8992a9] text-[14px]">
+            <div className="max-w-[1140px] mx-auto flex flex-wrap gap-4 items-center justify-between">
+              <div>© {year} KRD Group. {t.rights}</div>
+              <div className="flex gap-2">
+                <span className="px-3.5 py-2 rounded-full border border-white/[0.09] bg-white/[0.035] text-[13px] hover:border-white/[0.16] hover:bg-white/[0.06] transition-all duration-300">
+                  Kurdish Revolution in Development
+                </span>
+              </div>
+            </div>
+          </footer>
+        );
+      }
+
+      /* ===================== Home ===================== */
+      const images = {
+        brand: 'KRDlogo.PNG',
+        member1: 'hama.PNG',
+        member2: 'zhalla.JPG',
+        member3: 'anas.PNG',
+        university: 'lfulogo.JPG',
+        math: 'https://cdn.corenexis.com/f/770zZedsXUu.jpeg',
+        weather: 'weatherimage.jpeg',
+        wifi: 'wifiimage.jpeg',
+        qr: 'https://cdn.corenexis.com/f/k702maEtChT.jpeg',
+        safecheck:'https://cdn.corenexis.com/f/g1Dd93CDtZy.jpeg',
+        restaurant: 'https://cdn.corenexis.com/f/q4fbs13L6Ao.jpeg',
+        shopping: 'https://cdn.corenexis.com/f/Op73GXxqEBi.jpeg',
+        florasco: 'https://cdn.corenexis.com/f/BQBv6XBpHQ8.jpeg',
+        pongina:'https://cdn.corenexis.com/f/KjzvG8PUzUz.jpeg',
+        appcv:'https://cdn.corenexis.com/f/pMOWG7C0MVw.png',
+      };
+
+      function Home() {
+        const [lang, setLang] = useState(() => localStorage.getItem('amz-lang') || 'en');
+        const [activeSection, setActiveSection] = useState('home');
+
+        useEffect(() => {
+          localStorage.setItem('amz-lang', lang);
+          document.documentElement.setAttribute('dir', lang === 'ku' ? 'rtl' : 'ltr');
+          document.documentElement.setAttribute('lang', lang === 'ku' ? 'ku' : 'en');
+        }, [lang]);
+
+        const t = useMemo(() => {
+          if (lang === 'ku') return { ...defaultEnglish, ...translations.ku };
+          return defaultEnglish;
+        }, [lang]);
+
+        const handleNavigate = (id) => {
+          setActiveSection(id);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        const sections = {
+          home: <Hero t={t} lang={lang} onNavigate={handleNavigate} brandImage={images.brand} />,
+          about: <AboutDeveloper t={t} lang={lang} images={images} />,
+          project: <Projects t={t} lang={lang} images={images} />,
+          ourservice: <Services t={t} lang={lang} images={images} />,
+          app: <Apps t={t} lang={lang} images={images} />,
+          contact: <Contact t={t} lang={lang} />,
+        };
+
+        return (
+          <div className="min-h-screen text-[#eef1f8] font-body antialiased tracking-tight relative overflow-x-hidden">
+            <div className="fixed inset-0 -z-10 pointer-events-none">
+              <div className="absolute inset-0 bg-[#000000]" />
+              <div className="absolute top-0 left-[12%] w-[1000px] h-[560px] rounded-full bg-[#f5b942]/6 blur-[140px]" />
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1200px] h-[700px] rounded-full bg-[#d97706]/5 blur-[160px]" />
+              <StarField />
+            </div>
+
+            <Header lang={lang} setLang={setLang} t={t} activeSection={activeSection} onNavigate={handleNavigate} brandImage={images.brand} />
+
+            <main className="pt-4">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activeSection}
+                  initial={{ opacity: 0, y: 16 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                >
+                  {sections[activeSection]}
+                </motion.div>
+              </AnimatePresence>
+            </main>
+
+            <Footer t={t} />
+          </div>
+        );
+      }
+
+      /* ===================== Render ===================== */
+      const root = createRoot(document.getElementById('root'));
+      root.render(<Home />);
+    </script>
+  </body>
+</html>
